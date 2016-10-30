@@ -1,0 +1,25 @@
+{
+    "name": "rny/zhconverter",
+    "type": "library",
+    "description": "convert between Simplified Chinese(zh-Hans) and Traditional Chinese(zh-Hant)",
+    "license": "MIT",
+    "keywords": ["chinese"],
+    "authors": [
+        {
+            "name": "RNY"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rny\\ZhConverter\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit;",
+        "phpunit": "phpunit"
+    }
+}
