@@ -25,9 +25,19 @@ $ composer require rny/zhconverter
 ```
 use Rny\ZhConverter\ZhConverter;
 
+$text = ZhConverter::zh2hant($text);
+$text = ZhConverter::zh2hans($text);
+$text = ZhConverter::zh2TW($text);
+$text = ZhConverter::zh2HK($text);
+$text = ZhConverter::zh2CN($text);
 ```
 
 ```
+$text = \Rny\ZhConverter\ZhConverter::zh2hant($text);
+$text = \Rny\ZhConverter\ZhConverter::zh2hans($text);
+$text = \Rny\ZhConverter\ZhConverter::zh2TW($text);
+$text = \Rny\ZhConverter\ZhConverter::zh2HK($text);
+$text = \Rny\ZhConverter\ZhConverter::zh2CN($text);
 ```
 
 ## Testing

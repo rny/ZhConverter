@@ -28,17 +28,20 @@ class ZhConverter {
 		return $text;
   }
 
+  static public function zh2hant($text)
   {
     $zhconverter = new ZhConverter;
 		return $zhconverter->translate($text, 'Hant');
   }
 
+  static public function zh2hans($text)
   {
     $zhconverter = new ZhConverter;
 		$text = $zhconverter->translate($text, 'Hans');
     return $text;
   }
 
+  static public function zh2TW($text)
   {
     $zhconverter = new ZhConverter;
 		$text = $zhconverter->translate($text, 'Hant');
@@ -46,6 +49,7 @@ class ZhConverter {
     return $text;
   }
 
+  static public function zh2HK($text)
   {
     $zhconverter = new ZhConverter;
 		$text = $zhconverter->translate($text, 'Hant');
@@ -53,6 +57,7 @@ class ZhConverter {
     return $text;
   }
 
+  static public function zh2CN($text)
   {
     $zhconverter = new ZhConverter;
 		$text = $zhconverter->translate($text, 'Hans');
