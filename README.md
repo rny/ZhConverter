@@ -1,6 +1,6 @@
 # ZhConverter
 
-[![Build Status](https://travis-ci.org/rny/zhconverter.svg?branch=master)](https://travis-ci.org/rny/zhconverter)
+[![Build Status](https://travis-ci.org/rny/ZhConverter.svg?branch=master)](https://travis-ci.org/rny/ZhConverter)
 
 ZhConverter is a simple PHP library to convert between Simplified Chinese(zh-Hans) and Traditional Chinese(zh-Hant).
 ZhConverter is using WikiMedia [ZhConverter.php](https://github.com/wikimedia/mediawiki/tree/master/languages/data) as convertion table.
